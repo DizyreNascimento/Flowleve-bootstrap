@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(135deg, #dfefff, #9ec5ff);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.navbar .nav-link {
+    color: #003366;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #0055aa;
+}
+
+.hero {
+    padding: 150px 20px 100px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #114477;
+}
+
+.hero-text {
+    color: #2a4b66;
+}
+
+.hero-btn {
+    background-color: #66aaff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+.hero-btn:hover {
+    background-color: #5599dd;
+}
+
+#sobre {
+    background-color: transparent;
+    color: #003366;
+}
+
+#funcionalidades {
+    background-color: transparent;
+}
+
+#funcionalidades .card {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-control {
+    border-radius: 8px;
+    border: 1px solid #aaccee;
+}
+
+form .form-control:focus {
+    border-color: #66aaff;
+    box-shadow: 0 0 5px #99c9ff;
+}
+
+form button {
+    background-color: #66aaff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+form button:hover {
+    background-color: #5599dd;
+}
