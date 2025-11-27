@@ -2,7 +2,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 body {
     background-image: url('img/back.png');
     background-size: cover;
@@ -11,7 +10,6 @@ body {
     background-position: center;
     color: #3d1030;
 }
-
 
 .navbar {
     background-color: transparent;
@@ -112,7 +110,6 @@ form button.btn:hover {
         padding-top: 10px;
     }
 }
-
 .hero {
     padding: 100px 20px 150px;
     }
