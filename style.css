@@ -2,16 +2,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 body {
-    background-image: url(img/back.png);
+    background-image: url('img/back.png');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    image-rendering: auto;
-    min-height: 100vh;
-    padding-top: 30px;
+    background-position: center;
+    color: #3d1030;
 }
+
 
 .navbar {
     background-color: transparent;
@@ -19,12 +19,12 @@ body {
 }
 
 .navbar .nav-link {
-    color: #000;
+    color: #3d1030;
     font-weight: 500;
 }
 
 .navbar .nav-link:hover {
-    color: #0055aa;
+    color: #ffc8ffff;
 }
 
 .hero {
@@ -33,79 +33,87 @@ body {
 }
 
 .hero-title {
-    font-size: 2.5rem;
-    color: #00070e;
+    color: #351328;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
 }
 
+
 .hero-text {
-    color: #2a4b66;
+    color: #3d1030;
 }
 
 .hero-btn {
-    background-color: #66aaff;
+    background-color: #aa3faa;
     border: none;
     padding: 10px 25px;
     border-radius: 8px;
 }
 
 .hero-btn:hover {
-    background-color: #5599dd;
+    background-color: #cc39ac;
 }
+
+#contato h2 {
+    color: #3d1030;
+}
+
 
 #sobre {
     background-color: transparent;
-    color: #000;
+    color: #3d1030;
+     margin-top: 150px;
 }
 
 #funcionalidades {
     background-color: transparent;
+    color: #3d1030;
     margin-top: 250px;
     margin-bottom: 250px;
 }
 
 #funcionalidades .card {
     background: rgba(255, 255, 255, 0.5);
+     color: #3d1030;
     border: none;
     border-radius: 12px;
     backdrop-filter: blur(6px);
 }
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
+form label {
+    color: #3d1030;
 }
 
 form .form-control {
+    color: #3d1030;
     border-radius: 8px;
-    border: 1px solid #aaccee;
+    border: 1px solid #3d1030;
 }
 
-form .form-control:focus {
-    border-color: #66aaff;
-    box-shadow: 0 0 5px #99c9ff;
+form .form-control::placeholder {
+    color: #3d1030a8;
 }
 
-form button {
-    background-color: #66aaff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
+form button.btn {
+    background-color: #3d1030 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
 }
 
-form button:hover {
-    background-color: #5599dd;
+form button.btn:hover {
+    background-color: #692456 !important;
 }
 
 @media (max-width: 768px) {
     body {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: scroll;
-    background-color: #ffffff;
+        padding-top: 10px;
     }
+}
 
-    .hero {
+.hero {
     padding: 100px 20px 150px;
     }
 
@@ -113,4 +121,3 @@ form button:hover {
     margin-top: 120px;
     margin-bottom: 120px;
     }
-}
