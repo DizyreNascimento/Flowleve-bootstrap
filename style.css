@@ -95,14 +95,14 @@ form .form-control::placeholder {
 
 form button.btn {
     background-color: #3d1030 !important;
-    color: #ffffff !important;
-    border: none !important;
+    color: #ffffff;
+    border: none;
     border-radius: 8px !important;
     padding: 10px 20px !important;
 }
 
 form button.btn:hover {
-    background-color: #692456 !important;
+    background-color: #692456;
 }
 
 @media (max-width: 768px) {
