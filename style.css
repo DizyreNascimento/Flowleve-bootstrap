@@ -95,3 +95,22 @@ form button {
 form button:hover {
     background-color: #5599dd;
 }
+
+@media (max-width: 768px) {
+    body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-color: #ffffff;
+    }
+
+    .hero {
+    padding: 100px 20px 150px;
+    }
+
+#funcionalidades {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    }
+}
