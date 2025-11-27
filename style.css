@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     image-rendering: auto;
     min-height: 100vh;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .navbar {
@@ -28,7 +28,7 @@ body {
 }
 
 .hero {
-    padding: 150px 20px 100px;
+    padding: 150px 20px 300px;
     text-align: center;
 }
 
@@ -59,6 +59,8 @@ body {
 
 #funcionalidades {
     background-color: transparent;
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
 
 #funcionalidades .card {
