@@ -3,9 +3,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    image-rendering: auto;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    image-rendering: auto;
     min-height: 100vh;
     padding-top: 20px;
 }
@@ -16,7 +15,7 @@ body {
 }
 
 .navbar .nav-link {
-    color: #000000;
+    color: #000;
     font-weight: 500;
 }
 
@@ -51,7 +50,7 @@ body {
 
 #sobre {
     background-color: transparent;
-    color: #000000;
+    color: #000;
 }
 
 #funcionalidades {
